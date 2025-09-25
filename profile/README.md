@@ -51,6 +51,9 @@ open pull request to [rust-netlink/new-crate-review][new-crate-review].
 
 - https://github.com/jbaublitz/neli: the main alternative to these crates, as
   it is actively developed.
+- https://github.com/one-d-wide/netlink-bindings: Rust bindings for
+  encoding/decoding Netlink messages generated from Linux kernel YAML netlink
+  API
 - Other but less actively developed alternatives:
   - https://github.com/achanda/netlink
   - https://github.com/polachok/pnetlink
