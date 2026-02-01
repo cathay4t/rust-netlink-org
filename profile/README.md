@@ -15,6 +15,7 @@ If you seeking crates to communication with linux netlink, please try:
 - The [`mptcp-pm`][mptcp-pm] crate provides MPTCP path manager netlink protocol
 - The [`wl-nl80211`][wl-nl80211] crate provides wireless nl80211 netlink
   protocol
+- The [`nl-wireguard`][nl-wireguard] crate provides wireguard netlink protocol
 
 If you seeking crates to parsing or emitting netlink packet, please try:
 
@@ -122,3 +123,4 @@ are building, and the support they provide.
 [netlink-packet-xfrm]: https://github.com/rust-netlink/netlink-packet-xfrm
 [netlink-packet-wireguard]: https://github.com/rust-netlink/netlink-packet-wireguard
 [matrix_room_url]: https://app.element.io/#/room/#rust-netlink:fedora.im
+[nl-wireguard]: https://github.com/rust-netlink/nl-wireguard
