@@ -35,8 +35,8 @@ If you seeking crates to parsing or emitting netlink packet, please try:
       for the `NETLINK_NETFILTER` protocol
     - [`netlink-packet-xfrm`][netlink-packet-xfrm] provides message for IPsec
 
-We are also experiencing with a do drop-in replacement of [iproute2]
-[iproute_url] in [iproute-rs][iproute_rs_url].
+We are also experiencing with a do drop-in replacement of
+[iproute2][iproute_url] in [iproute-rs][iproute_rs_url].
 
 Shared crates but designed for internal usage:
 - The [`netlink_sys`][netlink-sys] crate provides netlink sockets. Integration
