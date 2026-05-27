@@ -35,6 +35,9 @@ If you seeking crates to parsing or emitting netlink packet, please try:
       for the `NETLINK_NETFILTER` protocol
     - [`netlink-packet-xfrm`][netlink-packet-xfrm] provides message for IPsec
 
+We are also experiencing with a do drop-in replacement of [iproute2]
+[iproute_url] in [iproute-rs][iproute_rs_url].
+
 Shared crates but designed for internal usage:
 - The [`netlink_sys`][netlink-sys] crate provides netlink sockets. Integration
   with [`mio`][mio] and [`tokio`][tokio] is optional.
@@ -124,3 +127,5 @@ are building, and the support they provide.
 [netlink-packet-wireguard]: https://github.com/rust-netlink/netlink-packet-wireguard
 [matrix_room_url]: https://app.element.io/#/room/#rust-netlink:fedora.im
 [nl-wireguard]: https://github.com/rust-netlink/nl-wireguard
+[iproute_url]: https://git.kernel.org/pub/scm/network/iproute2/iproute2.git
+[iproute_rs_url]: https://github.com/rust-netlink/iproute-rs
